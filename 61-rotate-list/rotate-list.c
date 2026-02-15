@@ -3,8 +3,9 @@
  * struct ListNode {
  *     int val;
  *     struct ListNode *next;
- * };
+ * };.
  */
+ 
 struct ListNode* rotateRight(struct ListNode* head, int k) {
     struct ListNode*p=head;
     int c=0,n=0;
